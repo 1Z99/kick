@@ -13,7 +13,7 @@ Getting Started:
 
 # To get started with Kick Clips Downloader, follow these steps:
 
-Open the Kick Clips Downloader website by clicking on the following link : 
+Open the Kick Clips Downloader website by clicking on the following link : https://1z99.github.io/kick/
 Once the website loads, you'll see the "Clip Downloader" section at the top. Here, you can paste the link of the clip you want to download.
 After pasting the clip link, click the "Download" button to initiate the download process.
 For accessing account information, scroll down to the "Account Info" section. Enter your username in the provided field and click the "Get Info" button to fetch your account details.
