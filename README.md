@@ -5,10 +5,15 @@ Welcome to Kick Clips Downloader! This website allows you to easily download cli
 
 # Features:
 
-# Easy Clip Download : Simply paste the clip link and click the "Download" button to save the clip directly to your device.
-# Account Information: Get detailed information about your Kick account by entering your username and clicking the "Get Info" button.
-# Account Ranking: Discover the rank of your Kick account based on various factors such as account ID, username, and more.
-# User-Friendly Interface: The website provides a clean and intuitive interface, making it effortless to navigate and use the available features.
+# Easy Clip Download : 
+Simply paste the clip link and click the "Download" button to save the clip directly to your device.
+# Account Information: 
+Get detailed information about your Kick account by entering your username and clicking the "Get Info" button.
+# Account Ranking: 
+Discover the rank of your Kick account based on various factors such as account ID, username, and more.
+# User-Friendly Interface: 
+The website provides a clean and intuitive interface, making it effortless to navigate and use the available features.
+
 # Getting Started:
 To get started with Kick Clips Downloader, follow these steps:
 Open the website by clicking on the following : [LINK](https://1z99.github.io/kick/)
