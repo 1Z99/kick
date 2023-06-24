@@ -1,128 +1,159 @@
 body {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    background-image: url('https://i.ibb.co/nzLZxXY/x-NG9l-Tmg-3-2-4.png');
-    background-color: #24272C;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  
-  h2 {
-    color: #ffffff;
-    font-family: "Press Start 2P";
-    font-size: 20px;
-  }
-  
-  input[type="text"] {
-    width: 300px;
-    padding: 7px;
-    margin-bottom: 10px;
-  }
-  
-  label {
-    font-size: 15px;
-    margin-bottom: 440px;
-    color: #00E701;
-    font-weight: bold;
-  }
-  
-  button {
-    padding: 10px 20px;
-    background-color: #6e7d81d7;
-    color: #1f1919;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: rgb(11, 160, 11);
-  }
-  
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-image: url('https://i.ibb.co/nzLZxXY/x-NG9l-Tmg-3-2-4.png');
+  background-color: #24272C;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+h3 {
+  color: #ffffff;
+  font-family: "Press Start 2P";
+  font-size: 10px;
+  margin-top: 80px;
+}
+.rank-link {
+  text-decoration: none;
+}
+
+
+.containerfirsts {
+  position: relative;
+}
+
+
+.rank-explanations {
+  position: absolute;
+  top: 0;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: "Press Start 2P";
+  font-size: 20px;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 7px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 15px;
+  margin-bottom: 440px;
+  color: #00E701;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #6e7d81d7;
+  color: #1f1919;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(11, 160, 11);
+}
+
+.account-info {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #161618;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.account-info label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.account-info input[type="text"] {
+  width: 300px;
+  padding: 7px;
+  margin-bottom: 10px;
+}
+
+.account-info .input-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.account-info .input-group button {
+  flex-shrink: 0;
+}
+
+.account-info button {
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.account-info button:hover {
+  background-color: #23527c;
+}
+
+#account-details {
+  margin-top: 1px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.Logo {
+  width: 100px;
+  height: 32px;
+  animation-name: shake;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-1px); }
+  20%, 40%, 60%, 80% { transform: translateX(2px); }
+  100% { transform: translateX(0); }
+}
+
+footer p {
+  margin: 0;
+  color: #ffffff; /* Set text color to white */
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 600px) {
   .account-info {
-    margin-top: 230px;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 330px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #161618;
-    padding: 40px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin-top: 100px;
+    padding: 20px;
   }
-  
-  .account-info label {
-    display: block;
-    margin-bottom: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    opacity: 1;
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.7), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.3), 0 0 10px rgba(255, 255, 255, 0.1), 0 0 10px rgba(255, 255, 255, 0.05);
   }
-  
-  .account-info input[type="text"] {
-    width: 300px;
-    padding: 7px;
-    margin-bottom: 10px;
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.7), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.3), 0 0 10px rgba(255, 255, 255, 0.1), 0 0 10px rgba(255, 255, 255, 0.05);
   }
-  
-  .account-info .input-group {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .account-info .input-group button {
-    flex-shrink: 0;
-  }
-  
-  .account-info button {
-    padding: 10px 20px;
-    background-color: #337ab7;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .account-info button:hover {
-    background-color: #23527c;
-  }
-  
-  #account-details {
-    margin-top: 1px;
-    text-align: left;
-    color: #ffffff;
-  }
-  
-  .Logo {
-    width: 100px;
-    height: 32px;
-    animation-name: shake;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes shake {
-    0% { transform: translateX(0); }
-    10%, 30%, 50%, 70%, 90% { transform: translateX(-1px); }
-    20%, 40%, 60%, 80% { transform: translateX(2px); }
-    100% { transform: translateX(0); }
-  }
-  
-  footer p {
-    margin: 0;
-    color: #ffffff; /* Set text color to white */
-  }
-  
-  /* Responsive Styles */
-  
-  @media only screen and (max-width: 600px) {
-    .account-info {
-      width: 90%;
-      margin-top: 100px;
-      padding: 20px;
-    }
-  }
-  
+}
