@@ -1,4 +1,4 @@
-# 🎥 Kick Clips Downloader & Account fetcher! 📽️💾
+# 🎥 Kick.com Clips Downloader & Username Rarity & Account fetcher! 📽️💾
 
 # Introduction:
 Welcome to Kick Clips Downloader! This website allows you to easily download clips from your favorite streams and videos. Whether you want to save a funny moment, an epic play, or a memorable highlight, Kick Clips Downloader has got you covered!
