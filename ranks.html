@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ranks Page</title>
+  <link rel="icon" type="image/svg+xml" href="https://i.ibb.co/x2q9krY/jBBqpPjE.png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    .explanation {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .explanation p {
+      margin-bottom: 10px;
+    }
+
+    .rank-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .rank {
+      display: flex;
+      align-items: center;
+      margin: 10px;
+    }
+
+    .rank-color {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+
+    .rank-text {
+      font-weight: bold;
+    }
+
+    .rank-points {
+      margin-left: 10px;
+    }
+
+    /* Rank Colors */
+    .rank-color.legendary {
+      background-color: red;
+    }
+
+    .rank-color.epic {
+      background-color: purple;
+    }
+
+    .rank-color.rare {
+      background-color: blue;
+    }
+
+    .rank-color.uncommon {
+      background-color: green;
+    }
+
+    .rank-color.common {
+      background-color: orange;
+    }
+
+    .rank-color.basic {
+      background-color: gray;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Rankings System</h1>
+    <div class="explanation">
+        <h2>Rankings System Explanation</h2>
+        <p><strong>Account ID Points:</strong></p>
+        <p>The account ID is obtained from accountDetails['Account_id'].</p>
+        <p>If the account ID is between 1 and 16,000 (inclusive), 10 points are added to the rank.</p>
+        <p>If the account ID is between 16,001 and 25,000 (inclusive), 7 points are added to the rank.</p>
+        <p>If the account ID is between 25,001 and 100,000 (inclusive), 5 points are added to the rank.</p>
+        <p>If the account ID is between 100,001 and 10,000,000 (inclusive), 1 point is added to the rank.</p>
+      
+        <p><strong>Username Points:</strong></p>
+        <p>The username is obtained from accountDetails.Username.</p>
+        <p>If the username contains at least one alphabetic character (a-zA-Z), 15 points are added to the rank. This indicates an alphabetic username.</p>
+        <p>If the username consists only of numeric characters, 15 points are added to the rank. This indicates a numeric username.</p>
+      
+        <p><strong>Additional Points based on Username Length:</strong></p>
+        <p>Points are added or subtracted based on the length of the username. The formula (6 - usernameLength) * 10 is used, where usernameLength represents the length of the username. For example, if the username is 3 characters long, 30 points will be added to the rank ((6 - 3) * 10 = 30).</p>
+      
+        <p><strong>The rank text and points are determined as follows:</strong></p>
+        <p>If the rank is 50 or higher, the rank text is "Legendary" with 50 points.</p>
+        <p>If the rank is between 40 and 49 (inclusive), the rank text is "Epic" with 40 points.</p>
+        <p>If the rank is between 30 and 39 (inclusive), the rank text is "Rare" with 30 points.</p>
+        <p>If the rank is between 25 and 29 (inclusive), the rank text is "Uncommon" with 25 points.</p>
+        <p>If the rank is between 15 and 24 (inclusive), the rank text is "Common" with 15 points.</p>
+        <p>If the rank is less than 15, the rank text is "Basic" with 10 points.</p>
+      
+        <p><strong>The associated rank color is determined as follows:</strong></p>
+        <p>"Legendary" rank is represented by the color red.</p>
+        <p>"Epic" rank is represented by the color purple.</p>
+        <p>"Rare" rank is represented by the color blue.</p>
+        <p>"Uncommon" rank is represented by the color green.</p>
+        <p>"Common" rank is represented by the color orange.</p>
+        <p>"Basic" rank is represented by the color gray.</p>
+      </div>
+      
+
+    <div class="rank-container">
+      <div class="rank">
+        <div class="rank-color legendary"></div>
+        <div class="rank-text">Legendary</div>
+        <div class="rank-points">50 points</div>
+      </div>
+      <div class="rank">
+        <div class="rank-color epic"></div>
+        <div class="rank-text">Epic</div>
+        <div class="rank-points">40 points</div>
+      </div>
+      <div class="rank">
+        <div class="rank-color rare"></div>
+        <div class="rank-text">Rare</div>
+        <div class="rank-points">30 points</div>
+      </div>
+      <div class="rank">
+        <div class="rank-color uncommon"></div>
+        <div class="rank-text">Uncommon</div>
+        <div class="rank-points">25 points</div>
+      </div>
+      <div class="rank">
+        <div class="rank-color common"></div>
+        <div class="rank-text">Common</div>
+        <div class="rank-points">15 points</div>
+      </div>
+      <div class="rank">
+        <div class="rank-color basic"></div>
+        <div class="rank-text">Basic</div>
+        <div class="rank-points">10 points</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
